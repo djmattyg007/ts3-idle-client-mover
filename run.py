@@ -40,7 +40,7 @@ parser.add("--sq-username", action="store", type=str, required=True)
 parser.add("--sq-password", action="store", type=str, required=True)
 parser.add("--server-id", action="store", type=int, required=False, default=1)
 parser.add("--afk-channel-id", action="store", type=int, required=True)
-parser.add("--idle-time", action="store", type=int, required=True)
+parser.add("--idle-time", action="store", type=int, required=False, default=3600)
 parser.add("--ignore-client", action="append", type=int, required=False, default=[], dest="ignore_clients")
 parser.add("--special-client", action="append", type=str, required=False, default=[], dest="special_clients")
 
