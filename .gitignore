@@ -1,0 +1,11 @@
+/bin/
+/lib/
+/lib64
+/include/
+
+/pyvenv.cfg
+
+*.pyc
+*.pyo
+
+/idle-client-mover.conf
